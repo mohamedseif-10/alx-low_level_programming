@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * mian - Entry
+ * main - Entry
  *
  * Description: this is a function
  *
  * Return: Always 0 (success)
 */
 
-int mian(void)
+int main(void)
 {
 	printf("size if a char: %lu byte(s)\n", sizeof(char));
 	printf("size if an int: %lu byte(s)\n", sizeof(int));
