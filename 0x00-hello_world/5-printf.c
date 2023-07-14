@@ -2,10 +2,11 @@
 
 /**
  * main - Entry point
- * 
- * Description : A C programe that print string by function printf
  *
- * Return : it will return 0 if successed*/
+ * Description : A C programe that print string by function printf.
+ *
+ * Return : Always 0 (success)
+ */
 
 int main(void)
 {
