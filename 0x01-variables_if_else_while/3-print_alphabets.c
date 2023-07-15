@@ -14,7 +14,7 @@ int main(void)
 
 	while (i < 123)
 	{
-		if (i == 122)
+		if (i == 123)
 			i = 65;
 		if (i == 90)
 			break;
