@@ -12,7 +12,7 @@ int main(void)
 {
 	int i = 97;
 
-	while (i < 123)
+	while (i <= 123)
 	{
 		if (i == 123)
 			i = 65;
