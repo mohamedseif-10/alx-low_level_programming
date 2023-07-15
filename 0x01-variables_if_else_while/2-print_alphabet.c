@@ -10,7 +10,12 @@
 
 int main(void)
 {
-	for (size_t i =97;i<123;i++)
+	int i = 97;
+
+	while (i<123)
+	{
 		putchar(i);
+		i++;
+	}
 	return (0);
 }
