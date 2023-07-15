@@ -16,7 +16,7 @@ int main(void)
 	{
 		if (i == 123)
 			i = 65;
-		if (i == 90)
+		if (i == 91)
 			break;
 		putchar(i);
 		i++;
