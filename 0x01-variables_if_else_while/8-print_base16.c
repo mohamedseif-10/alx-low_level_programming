@@ -13,14 +13,15 @@ int main(void)
 	int i = 0, n = 0;
 
 
-	while (i++ < 15)
+	while (i < 15)
 	{
-		if (i == 9)
-		{
-		n = 65;
-		}
 		putchar(n);
 		n++;
+		i++;
+		if (i == 9)
+                {
+                n = 65;
+                }
 	}
 	putchar('\n');
 	return (0);
