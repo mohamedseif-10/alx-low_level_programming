@@ -10,12 +10,12 @@
 
 int main(void)
 {
-	int i = 48;
+	int i = 48, j = 49, n;
 
 	while (i < 58)
 	{
-		j = 49;
-		while (j < 59)
+		n = j;
+		while (n < 59)
 		{
 			putchar(i);
 			putchar(j);
@@ -24,7 +24,7 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
-			j++;
+			n++;
 		}
 		i++;
 		j++;
