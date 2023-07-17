@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	char n = 'a';
+	char n = 96;
 
 	while (n++ < 123)
 	{
