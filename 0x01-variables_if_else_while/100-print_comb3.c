@@ -10,16 +10,21 @@
 
 int main(void)
 {
-	int i = 48, j = 49;
+	int i = 48;
 
-	while (j < 59)
+	while (i < 58)
 	{
-		putchar(i);
-		putchar(j);
-		if (j != 58)
+		j = 49;
+		while (j < 59)
 		{
-			putchar(',');
-			putchar(' ');
+			putchar(i);
+			putchar(j);
+			if (j != 58)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+			j++;
 		}
 		i++;
 		j++;
