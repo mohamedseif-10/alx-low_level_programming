@@ -10,13 +10,13 @@
 
 int main(void)
 {
-	int i = 0, j = 1;
+	int i = 48, j = 49;
 
-	while (j < 10)
+	while (j < 59)
 	{
 		putchar(i);
 		putchar(j);
-		if (j != 9)
+		if (j != 58)
 		{
 			putchar(',');
 			putchar(' ');
