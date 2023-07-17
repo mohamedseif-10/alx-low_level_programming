@@ -20,7 +20,7 @@ int main(void)
 		i++;
 		if (i == 9)
 		{
-			n = 65;
+			n = 97;
 		}
 	}
 	putchar('\n');
