@@ -13,12 +13,12 @@ int main(void)
 	int i = 0, n = 48;
 
 
-	while (i < 16)
+	while (i < 15)
 	{
 		putchar(n);
 		n++;
 		i++;
-		if (i == 9)
+		if (i == 10)
 		{
 			n = 97;
 		}
