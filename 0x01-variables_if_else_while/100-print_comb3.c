@@ -18,7 +18,7 @@ int main(void)
 		while (n < 59)
 		{
 			putchar(i);
-			putchar(j);
+			putchar(n);
 			if (i != 57)
 			{
 				putchar(',');
