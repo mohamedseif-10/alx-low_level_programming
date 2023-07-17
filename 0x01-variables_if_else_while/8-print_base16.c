@@ -13,7 +13,7 @@ int main(void)
 	int i = 0, n = 48;
 
 
-	while (i < 15)
+	while (i < 16)
 	{
 		putchar(n);
 		n++;
