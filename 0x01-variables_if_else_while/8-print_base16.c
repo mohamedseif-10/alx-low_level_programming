@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int i = 0, n = 0;
+	int i = 0, n = 48;
 
 
 	while (i < 15)
@@ -19,9 +19,9 @@ int main(void)
 		n++;
 		i++;
 		if (i == 9)
-                {
-                n = 65;
-                }
+		{
+			n = 65;
+		}
 	}
 	putchar('\n');
 	return (0);
