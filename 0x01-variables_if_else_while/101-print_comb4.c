@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int i = 48, j = 49, l = 50, n = 0, x = 0;
+	int i = 48, j = 49, l = 50, n = 1;
 
 	while (i < 56)
 	{
@@ -34,8 +34,8 @@ int main(void)
 			j++;
 		}
 		n++;
-		j = 49;
-		l = 50;
+		j = 49 + n;
+		l = 50 + n;
 		i++;
 	}
 	putchar('\n');
