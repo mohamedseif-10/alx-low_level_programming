@@ -10,11 +10,10 @@
 
 int main(void)
 {
-	int i = 48, j = 49;
+	int i = 48, j = 49, n = 0;
 
 	while (i < 58)
 	{
-		int n = 0;
 
 		while (j < 58)
 		{
