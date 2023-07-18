@@ -10,24 +10,26 @@
 
 int main(void)
 {
-	int i = 48, j = 49, n;
+	int i = 48, j = 49;
 
 	while (i < 58)
 	{
-		n = j;
-		while (n < 59)
+		int n = 1;
+
+		while (j < 59)
 		{
 			putchar(i);
-			putchar(n);
+			putchar(j);
 			if (i != 57)
 			{
 				putchar(',');
 				putchar(' ');
 			}
-			n++;
+			j++;
 		}
+		n++;
+		j = 49 + n;
 		i++;
-		j++;
 	}
 	putchar('\n');
 	return (0);
