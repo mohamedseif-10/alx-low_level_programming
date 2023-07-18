@@ -39,7 +39,7 @@ int main(void)
 		j = 49 + n;
 	}
 	i++;
-	goto p:
+	goto p;
 	putchar('\n');
 	return (0);
 }
