@@ -10,9 +10,8 @@
 
 int main(void)
 {
-	int i = 48, j = 49, l = 50, n = 0, x = 0, z = 0;
+	int i = 48, j = 49, l = 50, n = 0, x = 0;
 
-	p:
 	while (i < 56)
 	{
 
@@ -35,11 +34,10 @@ int main(void)
 			j++;
 		}
 		n++;
-		z++;
-		j = 49 + n;
+		j = 49;
+		l = 50;
+		i++;
 	}
-	i++;
-	goto p;
 	putchar('\n');
 	return (0);
 }
